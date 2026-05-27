@@ -4,7 +4,7 @@
 
 img[src*="logo1"] {
     border-width: 10px;
-    border-color: blue;
+    border-color: red;
     border-style: solid;
 }
 
