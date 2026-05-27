@@ -7,3 +7,9 @@ img[src*="logo1"] {
     border-color: blue;
     border-style: solid;
 }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
