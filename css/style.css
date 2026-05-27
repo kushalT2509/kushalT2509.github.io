@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-
-
-img {
-    border: 20px solid green;
+img[src*="logo1"] {
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
 }
