@@ -2,11 +2,7 @@
     box-sizing: border-box;
 }
 
-img[src*="logo1"] {
-    border-width: 10px;
-    border-color: red;
-    border-style: solid;
-}
+
 
 img {
     border: 20px solid green;
