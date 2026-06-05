@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img[src*="logo1"] {
     border-width: 10px;
     border-color: red;
@@ -11,7 +15,7 @@ img[src*="logo1"] {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 form,
@@ -24,18 +28,87 @@ input[type="text"] {
     border-radius: 999px;
 }
 
-main h1 {
+main h1, main h2, main p {
     text-align: center;
 }
 
-main p {
+section h2, section p {
     text-align: center;
 }
 
-section h2, p {
-    text-align: center;
+.content-wrap {  /*this is a border to better visualise my different sections */
+    border: 2px solid cyan;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
 }
 
-main h2 {
+footer {
     text-align: center;
+    font-size: 1.5em;
 }
+
+.nav-alignment { /*this is for home, about us, gallery, contact.to make them next to each other */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2em;
+}
+
+.search-container {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px; 
+}
+
+.search-container input[type="text"] {
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.border { /*border around the navs*/
+    border: 2px solid blue;
+    padding: 1.5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0099cc;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.secondary-container {
+    display: flex;
+    gap: 20px;
+    /* space between items */
+    justify-content: space-between;
+    /* spread them nicely */
+    align-items: flex-start;
+    margin: 10px;
+    padding: 1px;
+    border: 5px solid red;
+}
+
+section {
+    flex: 1;
+    /* each section takes equal width */
+    border: 2px solid cyan;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+aside {
+    width: 300px;
+    border: 2px solid orange;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+aside {
+    text-align: center;
+} 

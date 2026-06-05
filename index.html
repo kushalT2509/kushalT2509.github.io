@@ -6,6 +6,7 @@
     <title>Animal Awareness</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="icons/mini home web icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0c54b7787d.js"></script>
 </head>
 <body>
 
@@ -15,18 +16,23 @@
 <!-- // start of Nav content -->
 <nav>
 
-<div>
-<a href><img src="logo/logo1.webp" width="200" height="200"></a>
+<div class="content-wrap">
+    
+    <a href><img src="logo/logo1.webp" width="200" height="200"></a>
+    <div class="search-container">
+        <form action="">
+        <input type="text" placeholder="Search..">
+        </form>
+    </div>
+    <div class="nav-alignment">
+        <ul>
+            <li><span class="border"><a href="index.html">Home</a></span></li>
+            <li><span class="border"><a href ="2.About-Us/about.html">About Us</a></span></li>
+            <li><span class="border"><a href ="9.Gallery/gallery.html">Gallery</a></span></li>
+            <li><span class="border"><a href="12.Contact/contact.html">Contact</a></span></li>
+        </ul>
+    </div>
 </div>
-<form action="">
-    <input type="text" placeholder="Search..">
-</form>
-<ul>
-    <li><a href ="index.html">Home</a></li>
-    <li><a href ="2.About-Us/about.html">About Us</a></li>
-    <li><a href ="9.Gallery/gallery.html">Gallery</a></li>
-    <li><a href="12.Contact/contact.html">Contact</a></li>
-</ul>
 </nav>
 <!-- // end of Nav -->
 
@@ -35,21 +41,23 @@
 
 <!-- // start of Main content with two sections and one aside -->
 <main>
-<div>
+<div class="content-wrap">
 <a href><img src="images/mainsection1photo.webp" width="300" height="300"></a>
+
+    <div>
+        <h1>Caring for Animals starts with Awareness</h1>
+        <p>Animals play an important role in maintaining the balance of nature
+        and deserve care, protection and respect. Through this website,
+        users can learn more about wildlife, endangered species, pet care
+        and conservation efforts that help protect animals and their habitats.
+        Together, we can raise awareness and make a positive difference for
+        animals around the world.</p>
+        <p><a href="10.Conservation/conservation.html" class="button">[Learn More]</a></p>
+    </div>
 </div>
-<div>
-    <h1>Caring for Animals starts with Awareness</h1>
-    <p>Animals play an important role in maintaining the balance of nature
-    and deserve care, protection and respect. Through this website,
-    users can learn more about wildlife, endangered species, pet care
-    and conservation efforts that help protect animals and their habitats.
-    Together, we can raise awareness and make a positive difference for
-    animals around the world.</p>
-    <p><a href="10.Conservation/conservation.html">[Learn More]</a></p>
-</div>
+<div class="secondary-container">
 <section>
-<div>
+<div class="content-wrap">
     <img src="images/secondarysectionimage1.webp" width="250" height="250">
     <h2>Short Fact about the Tiger and the Tigress</h2>
     <p>Tigers are one of the largest wild cats in the world and are known
@@ -63,7 +71,7 @@
 </section>
 
 <section>
-<div>
+<div class="content-wrap">
 <img src="images/secondarysectionimage2.webp" width="250" height="250">
 <h2>Short Fact about the Mauritian Kestrel</h2>
 <p>The Mauritian Kestrel is a rare endangered bird species found only in Mauritius and
@@ -82,15 +90,31 @@
 </section>
 
 <aside>
-
+<div class="content-wrap">
+    <img src="/images/asideimage1.webp" width="175" height="200">
+    <h2>Did You Know?</h2>
+    <p>Octopuses have three hearts and blue blood. Two hearts pump blood
+        to the gills, while the third pumps it to the rest of the body.
+    </p>
+    <a href = "8.Fun-Facts/funfacts.html">Discover More Fun Facts</a>
+</div>
 </aside>
+</div>
 
 <!-- // end of Main -->
 </main>
 
 <!-- // start of Footer -->
 <footer>
-
+<div class="content-wrap">
+<h2>Feel Free to Contact Us!</h2>
+<i class="fas fa-envelope-square"></i>
+<a href="mailto:kushal.takoordyal@umail.utm.ac.mu">Email Us</a>
+<i class="fab fa-facebook-f"></i>
+<a href="http://www.facebook.com/kushal.takoordyal.2025">Facebook</a>
+<i class="fa-brands fa-instagram"></i>
+<a href=""></a>
+</div>
 </footer>
 <!-- // end of Footer -->
 
