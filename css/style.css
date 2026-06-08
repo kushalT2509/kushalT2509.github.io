@@ -118,6 +118,10 @@ aside {
 }
     */
 
+a {
+    color: blue;
+}
+
 body {
     background: linear-gradient(rgba(141, 153, 190, 0.1), rgba(141, 153, 190, 0.8)),
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
