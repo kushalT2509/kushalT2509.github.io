@@ -223,8 +223,3 @@ body {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-}
