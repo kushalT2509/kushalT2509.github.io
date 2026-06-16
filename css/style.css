@@ -240,7 +240,7 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     z-index: 9999;
 }
@@ -270,5 +270,32 @@ body {
     text-decoration: none;
     color: blue;
     border: 2px solid green;
-    background-color: rgba(0,255,0,0.1);
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+/*this is for the plus in the hamburger*/
+.submenu-title {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: blue;
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+.plus {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submenu-items {
+    display: none;
+    padding-left: 10px;
+}
+
+.submenu-items a {
+    display: block;
+    padding: 5px 0;
 }
