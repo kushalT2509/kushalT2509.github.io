@@ -33,6 +33,10 @@ main h1, main h2, main p {
     text-align: center;
 }
 
+nav h1{
+    text-align: center;
+}
+
 section h2, section p {
     text-align: center;
 }
@@ -43,11 +47,24 @@ section h2, section p {
     margin: 0 auto;
     padding: 60px 50px;
     overflow: auto;
+    
+}
+.center-image {
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
     text-align: center;
     font-size: 1.5em;
+}
+
+main a {
+    text-align: center;
+}
+
+section a {
+    text-align: center;
 }
 
 .nav-alignment { /*this is for home, about us, gallery, contact.to make them next to each other */
@@ -97,7 +114,7 @@ nav a {
     align-items: flex-start;
     margin: 10px;
     padding: 1px;
-    border: 5px solid red; 
+    border: 5px solid red;
 }
 
 section {
@@ -131,7 +148,7 @@ a {
 }
 
 body {
-    background: linear-gradient(rgba(141, 153, 190, 0.1), rgba(141, 153, 190, 0.8)),
+    background: linear-gradient(rgba(141, 153, 190, 0.7), rgba(141, 153, 190, 0.7)),
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
     background-size: cover;
     padding: 15px 0;
@@ -262,40 +279,84 @@ body {
     display: block;
 }
 
-.menu a {
+/* NORMAL MENU ITEMS */
+.new_menu a {
     display: block;
     padding: 10px 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
     text-decoration: none;
     color: blue;
     border: 2px solid green;
     background-color: rgba(0, 255, 0, 0.1);
 }
 
-/*this is for the plus in the hamburger*/
+/* CATEGORIES TITLE ROW */
+/*
 .submenu-title {
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     padding: 10px 10px;
+    margin: 5px 0;
     color: blue;
     border: 2px solid green;
-    background-color: rgba(0, 255, 0, 0.1)
+    background-color: rgba(0, 255, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+*/
+.submenu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    color: blue;
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+}
+/* REMOVE INNER BORDER FROM THE <a> INSIDE CATEGORIES */
+.submenu-title a {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: blue;
 }
 
+/* POSITION THE PLUS SIGN */
 .plus {
     font-size: 20px;
     font-weight: bold;
+    margin-left: 15px;
 }
 
+/* SUBMENU CONTAINER */
 .submenu-items {
     display: none;
-    padding-left: 10px;
+    margin: 5px 0;
+    padding: 0;
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.1);
 }
 
+/* INDIVIDUAL SUBMENU LINKS */
 .submenu-items a {
     display: block;
-    padding: 5px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    border-bottom: 1px solid green;
+}
+
+/* REMOVE BORDER FROM LAST ITEM */
+.submenu-items a:last-child {
+    border-bottom: none;
+}
+
+/* OPTIONAL HOVER EFFECT */
+.submenu-items a:hover {
+    background-color: rgba(0, 255, 0, 0.2);
 }
