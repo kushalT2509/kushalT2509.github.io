@@ -41,14 +41,21 @@ section h2, section p {
     text-align: center;
 }
 
+.conservation_header {
+    text-align: center;
+}
+
 .content-wrap {  /*this is a border to better visualise my different sections */
-    border: 2px solid cyan;
+    border: 1px solid cyan;
     max-width: 950px;
     margin: 0 auto;
     padding: 60px 50px;
     overflow: auto;
     
 }
+
+
+
 .center-image {
     display: block;
     margin: 0 auto;
@@ -65,6 +72,7 @@ main a {
 
 section a {
     text-align: center;
+    text-decoration: none;
 }
 
 .nav-alignment { /*this is for home, about us, gallery, contact.to make them next to each other */
@@ -81,8 +89,19 @@ section a {
     border-radius: 5px;
 }
 
+figcaption{
+    text-align: center;
+
+}
+
 nav a {
     text-decoration: none;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
 }
 
 .search-container {
@@ -132,6 +151,7 @@ aside {
     text-align: center;
 }
 
+
 /*
 .education {
     background: linear-gradient(rgba(141, 153, 190,
@@ -142,10 +162,6 @@ aside {
 }
 */
 
-a {
-    color: blue;
-    
-}
 
 body {
     background: linear-gradient(rgba(141, 153, 190, 0.7), rgba(141, 153, 190, 0.7)),
@@ -356,7 +372,14 @@ body {
     border-bottom: none;
 }
 
-/* OPTIONAL HOVER EFFECT */
+/*HOVER EFFECT */
 .submenu-items a:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+/* Hover effect for ALL hamburger menu items */
+.menu a:hover,
+.new_menu a:hover,
+.submenu-title:hover {
     background-color: rgba(0, 255, 0, 0.2);
 }
