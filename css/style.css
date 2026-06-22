@@ -382,3 +382,24 @@ body {
 .submenu-title:hover {
     background-color: rgba(0, 255, 0, 0.2);
 }
+
+/* Force same layout on small screens */
+@media (max-width: 767px) {
+    .content-wrap {
+        flex-wrap: nowrap;
+        /* prevent stacking */
+    }
+
+    .nav-alignment ul {
+        flex-direction: row;
+        /* keep links horizontal */
+        overflow-x: auto;
+        /* allow scrolling if too wide */
+        white-space: nowrap;
+    }
+
+    .nav-alignment ul li {
+        flex: 0 0 auto;
+        /* stop shrinking */
+    }
+}
