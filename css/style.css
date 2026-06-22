@@ -378,7 +378,6 @@ body {
 }
 
 /* Hover effect for ALL hamburger menu items */
-.menu a:hover,
 .new_menu a:hover,
 .submenu-title:hover {
     background-color: rgba(0, 255, 0, 0.2);
