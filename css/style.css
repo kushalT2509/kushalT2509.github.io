@@ -80,6 +80,7 @@ section a {
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2em;
+    margin-top: 7px;
 }
 
 .navborderbox {
@@ -391,12 +392,15 @@ body {
         /* prevent stacking */
     }
 
-    .nav-alignment ul {
-        flex-direction: row;
-        /* keep links horizontal */
-        overflow-x: auto;
-        /* allow scrolling if too wide */
-        white-space: nowrap;
+        .nav-alignment ul {
+            flex-direction: row;
+            /* keep links horizontal */
+            overflow-x: auto;
+            /* allow horizontal scrolling */
+            overflow-y: hidden;
+            /* hide vertical scrollbar */
+            white-space: nowrap;
+            /* prevent wrapping */
     }
 
     .nav-alignment ul li {
