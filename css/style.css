@@ -108,6 +108,7 @@ footer a {
     width: 100%;
     text-align: right;
     margin-bottom: 20px; 
+    padding-top: 8px;
 }
 
 .search-container input[type="text"] {
