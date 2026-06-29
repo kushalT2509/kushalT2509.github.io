@@ -385,6 +385,7 @@ body {
     background-color: rgba(0, 255, 0, 0.2);
 }
 
+
 /* Force same layout on small screens */
 @media (max-width: 767px) {
     .content-wrap {
@@ -392,15 +393,15 @@ body {
         /* prevent stacking */
     }
 
-        .nav-alignment ul {
-            flex-direction: row;
-            /* keep links horizontal */
-            overflow-x: auto;
-            /* allow horizontal scrolling */
-            overflow-y: hidden;
-            /* hide vertical scrollbar */
-            white-space: nowrap;
-            /* prevent wrapping */
+    .nav-alignment ul {
+        flex-direction: row;
+        /* keep links horizontal */
+        overflow-x: auto;
+        /* allow horizontal scrolling */
+        overflow-y: hidden;
+        /* hide vertical scrollbar */
+        white-space: nowrap;
+        /* prevent wrapping */
     }
 
     .nav-alignment ul li {
@@ -413,4 +414,8 @@ video {
     height: 200px;
     object-fit: cover;
     /* crops the video to fill the box */
+}
+
+.aboutustitle {
+    text-align: center;
 }
