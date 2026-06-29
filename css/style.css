@@ -409,3 +409,9 @@ body {
     }
 }
 
+video {
+    height: 200px;
+    /* or whatever you prefer */
+    object-fit: cover;
+    /* crops the video to fill the box */
+}
