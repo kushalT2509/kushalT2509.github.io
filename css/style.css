@@ -46,7 +46,7 @@ section h2, section p {
 }
 
 .content-wrap {  /*this is a border to better visualise my different sections */
-    border: 1px solid cyan;
+    border: none;
     max-width: 950px;
     margin: 0 auto;
     padding: 60px 50px;
