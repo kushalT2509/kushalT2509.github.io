@@ -450,3 +450,7 @@ video {
     text-align: center;
     /* centers the whole list block */
 }
+
+.audio-section {
+    text-align: center;
+}
