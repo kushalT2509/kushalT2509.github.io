@@ -19,6 +19,10 @@ nav ul {
     
 }
 
+.space-downward {
+    padding-bottom: 40px;
+}
+
 form,
 nav ul {
     margin: 0;
@@ -49,11 +53,12 @@ section h2, section p {
     border: none;
     max-width: 950px;
     margin: 0 auto;
-    padding: 60px 50px;
-    overflow: auto;
-    
+    padding: 5px 50px;
 }
 
+.left-heading {
+    text-align: left !important;
+}
 
 
 .center-image {
@@ -166,11 +171,19 @@ aside {
 
 
 body {
-    background: linear-gradient(rgba(141, 153, 190, 0.9), rgba(141, 153, 190, 0.8)),
+    background: linear-gradient(rgba(141, 153, 190, 0.6), rgba(141, 153, 190, 0.5)),
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
     background-size: cover;
     padding: 15px 0;
+    color: #fff;
+   
 }
+
+/*p {
+    color: #222;
+}*/
+
+
 
 /* Top info boxes */
 .contact-info-section {
@@ -418,4 +431,23 @@ video {
 
 .aboutustitle {
     text-align: center;
+}
+
+/*.centering {
+    text-align: center;
+    list-style-position: inside;
+}
+*/
+.centering ul {
+    list-style-position: outside;
+    /* default, keeps bullets aligned */
+    display: inline-block;
+    /* shrink list to its content */
+    text-align: left;
+    /* bullets + text aligned inside */
+}
+
+.centering {
+    text-align: center;
+    /* centers the whole list block */
 }
