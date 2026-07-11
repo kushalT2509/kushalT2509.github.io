@@ -170,7 +170,7 @@ aside {
 
 
 body {
-    background: linear-gradient(rgba(141, 153, 190, 0.6), rgba(141, 153, 190, 0.5)),
+    background: linear-gradient(rgba(141, 153, 190, 0.9), rgba(141, 153, 190, 0.9)),
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
     background-size: cover;
     padding: 15px 0;
@@ -459,4 +459,15 @@ audio {
     margin: 0 auto;
     max-width: 100%;
     width: 400px;
+}
+
+.gallery-img {
+
+    transition: .3s;
+}
+
+.gallery-img:hover {
+
+    transform: scale(1.05);
+
 }
