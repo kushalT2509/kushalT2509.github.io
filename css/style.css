@@ -94,6 +94,19 @@ section a {
     border-radius: 5px;
 }
 
+.navborderbox:hover {
+    background: #0077aa;
+    /* slightly darker shade */
+    color: #fff;
+    /* keep text white */
+    text-decoration: none;
+    /* prevent underline */
+    transform: scale(1.05);
+    /* optional: subtle zoom */
+    transition: all 0.3s ease;
+    /* smooth animation */
+}
+
 figcaption{
     text-align: center;
 
@@ -128,6 +141,19 @@ footer a {
     color: white;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.button:hover {
+    background: #0077aa;
+    /* slightly darker shade */
+    color: #fff;
+    /* keep text white */
+    text-decoration: none;
+    /* prevent underline */
+    transform: scale(1.05);
+    /* optional: subtle zoom */
+    transition: all 0.3s ease;
+    /* smooth animation */
 }
 
 .secondary-container {
@@ -174,8 +200,7 @@ body {
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
     background-size: cover;
     padding: 15px 0;
-    color: #fff;
-   
+    
 }
 
 /*p {
