@@ -72,11 +72,13 @@ footer {
 
 main a {
     text-align: center;
+    color: white;
+    text-decoration: underline;
 }
 
 section a {
     text-align: center;
-    text-decoration: none;
+    
 }
 
 .nav-alignment { /*this is for home, about us, gallery, contact.to make them next to each other */
@@ -86,6 +88,7 @@ section a {
     font-size: 1.2em;
     margin-top: 7px;
 }
+
 
 .navborderbox {
     padding: 10px 20px;
@@ -119,7 +122,7 @@ nav a {
 
 footer a {
     text-decoration: none;
-    color: blue;
+    color: green;
 }
 
 .search-container {
@@ -184,16 +187,6 @@ aside {
 }
 
 
-/*
-.education {
-    background: linear-gradient(rgba(141, 153, 190,
-                0.8), rgba(141, 153, 190, 0.1)),
-        url(/images/asideimage1.webp) no-repeat fixed;
-    background-size: cover;
-    
-}
-*/
-
 
 body {
     background: linear-gradient(rgba(141, 153, 190, 0.9), rgba(141, 153, 190, 0.9)),
@@ -203,9 +196,7 @@ body {
     
 }
 
-/*p {
-    color: #222;
-}*/
+
 
 
 
@@ -327,7 +318,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 9998;
-    color: blue;
+    color: green;
 }
 
 .menu.showing {
@@ -340,35 +331,22 @@ body {
     padding: 10px 10px;
     margin: 5px 0;
     text-decoration: none;
-    color: blue;
+    color: green;
     border: 2px solid green;
     background-color: rgba(0, 255, 0, 0.1);
 }
 
 /* CATEGORIES TITLE ROW */
-/*
-.submenu-title {
-    display: block;
-    padding: 10px 10px;
-    margin: 5px 0;
-    color: blue;
-    border: 2px solid green;
-    background-color: rgba(0, 255, 0, 0.1);
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-}
-*/
+
 .submenu-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin: 5px 0;
-    color: blue;
+    color: green;
     border: 2px solid green;
     background-color: rgba(0, 255, 0, 0.1);
-    font-weight: bold;
     cursor: pointer;
 }
 /* REMOVE INNER BORDER FROM THE <a> INSIDE CATEGORIES */
@@ -378,7 +356,7 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: blue;
+    color: green;
 }
 
 /* POSITION THE PLUS SIGN */
@@ -402,7 +380,7 @@ body {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: blue;
+    color: green;
     border-bottom: 1px solid green;
 }
 
