@@ -74,7 +74,17 @@ main a {
     text-align: center;
     color: white;
     text-decoration: underline;
+    position: relative;
 }
+main a:hover::after {
+    content: " (Click)";
+    color: #FFD700;
+    /* Gold for visibility */
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+
 
 section a {
     text-align: center;
@@ -192,7 +202,7 @@ body {
     background: linear-gradient(rgba(141, 153, 190, 0.9), rgba(141, 153, 190, 0.9)),
         url(/images/WhatsApp\ Image\ 2026-06-05\ at\ 14.12.46.jpeg) no-repeat center;
     background-size: cover;
-    padding: 15px 0;
+    padding: 15px;
     
 }
 
@@ -472,5 +482,47 @@ audio {
 .gallery-img:hover {
 
     transform: scale(1.05);
+
+}
+
+
+.sitemap-link {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+.sitemap-icon {
+
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+
+}
+
+
+.sitemap-home-icon {
+
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+
+}
+
+
+.sitemap-link:hover {
+
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+
+.sitemap-link h3 {
+
+    margin-top: 15px;
+    font-size: 1.1rem;
 
 }
